@@ -15,7 +15,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Copyright from './Copyright'
-
+import MoodIcon from '@mui/icons-material/Mood';
 
 const theme = createTheme();
 
@@ -79,7 +79,7 @@ function App() {
             }}
           >
             <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
-              <LockOutlinedIcon />
+              <MoodIcon />
             </Avatar>
             <Typography component="h1" variant="h5">
               Sign in
